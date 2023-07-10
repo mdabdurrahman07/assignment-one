@@ -1,4 +1,55 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'Lato', sans-serif;
+    
+}
+/* shared  related styles */
+.btn-primary{
+    border-radius: 8px;
+    background: #E55473;
+    padding: 15px 32px;
+    color: white;
+    border: none;
+    font-size: 17px;
+}
+/* header related style */
+header{
+    background: rgba(229, 84, 115, 0.10);
+    width: 1920px;
+    height: 750px;
+   
+}
+.top-banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+    
+    
+}
+.top-banner-text-container{
+    width:50%;
+    
+}
+.top-banner-title{
+    color: #272727;
+    font-family: Lato;
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 20px;
+
+}
+.top-banner-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.top-banner-img{
+    width: 535px;
+    height: 700px;
+    padding-top: 50px;
+   
 }
