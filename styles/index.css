@@ -13,6 +13,9 @@
     border: none;
     font-size: 17px;
 }
+.primary-text{
+    color: #E55473;
+}
 /* header related style start */
 header{
     background: rgba(229, 84, 115, 0.10);
@@ -149,3 +152,38 @@ header{
     width: 65px;
     height: 60px;
 }
+/* second section related style  end*/
+
+/* third section related style start */
+.middle-banner-container{
+    display: flex;
+    align-items: center;
+    width: 1920px;
+    height: 500px;
+   justify-content: center;
+   text-align: center;
+   gap: 80px;
+    border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+margin-bottom: 110px;
+}
+.middle-banner-title{
+    color: #272727;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+.middle-banner-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.middle-banner-img{
+    width: 220px;
+    height: 320px;
+}   
+/* third section related style end */
+
